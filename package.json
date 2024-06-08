@@ -1,0 +1,15 @@
+{
+	"name": "maid-wa",
+	"version": "1.0.0",
+	"description": "Asisten watsap sederhana",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"keywords": [],
+	"author": "Ilham Taufiq",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"@open-wa/wa-automate": "^4.71.12"
+	}
+}
