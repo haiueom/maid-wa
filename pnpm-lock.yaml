@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@open-wa/wa-automate':
-        specifier: ^4.71.12
-        version: 4.71.12(lodash@4.17.21)(prom-client@14.2.0)(puppeteer-core@19.11.1(typescript@5.4.5))(typescript@5.4.5)(webpack@5.91.0)
+        specifier: ^4.71.14
+        version: 4.71.14(lodash@4.17.21)(prom-client@14.2.0)(puppeteer-core@19.11.1(typescript@5.4.5))(typescript@5.4.5)(webpack@5.91.0)
 
 packages:
 
@@ -110,8 +110,8 @@ packages:
     resolution: {integrity: sha512-0XrZDseUX7DKyn/Prmn5aOczsbdDD4acN29Nn5wY4haDSGEDvIiolHQlfXMp/P65cWPrWpXktgOGYIzyLHZ1aw==}
     engines: {node: '>=12.18.3', npm: '>=7.9.0'}
 
-  '@open-wa/wa-automate@4.71.12':
-    resolution: {integrity: sha512-o6oQKmvao1wAkyyq1pc0wrM2yqWt7oSutGo6lZ3Q0tA+L4W97co2QJuPb3so7RG9hbi3tv+9zHfZo7UOk3Zi+w==}
+  '@open-wa/wa-automate@4.71.14':
+    resolution: {integrity: sha512-FQA1mQYL144+VjQwqH4Gt7rDlX68UtC6cjwuZ0ckPUmWUB81FM5dTHrf28bAyq6yHGMWoqV/Pb5RT5xEzpsSqg==}
     engines: {node: '>=12.18.3', npm: '>=7.9.0'}
     hasBin: true
 
@@ -2331,7 +2331,7 @@ packages:
 
   puppeteer@19.11.1:
     resolution: {integrity: sha512-39olGaX2djYUdhaQQHDZ0T0GwEp+5f9UB9HmEP0qHfdQHIq0xGQZuAZ5TLnJIc/88SrPLpEflPC+xUqOTv3c5g==}
-    deprecated: < 22.5.0 is no longer supported
+    deprecated: < 22.6.4 is no longer supported
 
   qrcode-terminal@0.12.0:
     resolution: {integrity: sha512-EXtzRZmC+YGmGlDFbXKxQiMZNwCLEO6BANKXG4iCtSIM0yqc/pappSx3RIKr4r0uh5JsBckOXeKrB3Iz7mdQpQ==}
@@ -3320,7 +3320,7 @@ snapshots:
 
   '@open-wa/wa-automate-types-only@4.71.12': {}
 
-  '@open-wa/wa-automate@4.71.12(lodash@4.17.21)(prom-client@14.2.0)(puppeteer-core@19.11.1(typescript@5.4.5))(typescript@5.4.5)(webpack@5.91.0)':
+  '@open-wa/wa-automate@4.71.14(lodash@4.17.21)(prom-client@14.2.0)(puppeteer-core@19.11.1(typescript@5.4.5))(typescript@5.4.5)(webpack@5.91.0)':
     dependencies:
       '@brillout/import': 0.2.3
       '@discordjs/collection': 0.8.0
@@ -5224,7 +5224,7 @@ snapshots:
       '@colors/colors': 1.6.0
       '@types/triple-beam': 1.3.5
       fecha: 4.2.3
-      ms: 2.1.2
+      ms: 2.1.3
       safe-stable-stringify: 2.4.3
       triple-beam: 1.4.1
 
