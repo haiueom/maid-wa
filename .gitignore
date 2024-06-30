@@ -129,6 +129,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# custom
+config.json
+
 # managed
 **.data.json
 **.node-persist**
