@@ -1,7 +1,6 @@
-module.exports = async (client, message, config, utils) => {
-	const { adminOnly, formatNum } = utils;
-	const isAdmin = await adminOnly(client, message, config);
-	if (!isAdmin) return;
+const { formatNum } = require("../../libs/utils");
+
+module.exports = async (client, message) => {
 	return await client.sendImage(
 		message.from,
 		message.sender.profilePicThumbObj.imgFull,
@@ -11,6 +10,7 @@ module.exports = async (client, message, config, utils) => {
 		}\n*Number*: +${formatNum(message.sender.id)}\nType: ${
 			message.sender.isBusiness ? "WhatsApp Business" : "WhatsApp Normal"
 		}`,
-		message.id
+		message.id,
+		true
 	);
 };

@@ -1,11 +1,12 @@
-module.exports = async (client, message, config, utils) => {
-	const { adminOnly, groupOnly } = utils;
-	const isGroup = await groupOnly(client, message, config);
-	const isAdmin = await adminOnly(client, message, config);
+const { cekAdmin, cekGroup } = require("../../libs/utils");
+
+module.exports = async (client, message) => {
+	const isGroup = await cekGroup(client, message);
+	const isAdmin = await cekAdmin(client, message);
 	if (!isGroup || !isAdmin) return;
 	const text = message.body.split(" ").slice(1).join(" ");
 	const members = await client.getGroupMembersId(message.chat.id);
-	await client.sendReplyWithMentions(
+	return await client.sendReplyWithMentions(
 		message.from,
 		`🔰 *Info Penting!* 🔰\n================\n\n${text}`,
 		message.id,

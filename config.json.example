@@ -5,5 +5,23 @@
 	"owner": "Ilham Taufiq",
 	"ownerId": "62xxxxx",
 	"adminId": ["62xxx", "62xxx"],
-	"groupOnly": false
+	"groupOnly": false,
+	"log": true,
+	"payment": [
+		{
+			"nama": "Dana/Gopay/ShopeePay",
+			"an": "Ilham Taufiq",
+			"norek": "08xxx"
+		},
+		{
+			"nama": "BSI",
+			"an": "Ilham Taufiq",
+			"norek": "xxx"
+		},
+		{
+			"nama": "BNI",
+			"an": "Ilham Taufiq",
+			"norek": "xxx"
+		}
+	]
 }

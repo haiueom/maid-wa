@@ -131,6 +131,7 @@ dist
 
 # custom
 config.json
+models-example/
 
 # managed
 **.data.json
